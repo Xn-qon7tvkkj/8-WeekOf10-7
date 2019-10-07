@@ -19,3 +19,8 @@ print(jokeEvaluation % hilarious)
 w = "This is the left side of..."
 e = "a string with a right side."
 print(w+e)
+
+# More printing fun
+print("Mary had a little lamb.")
+print("Its fleece was white as %s." % 'snow')
+print("And everywhere that Mary went.")
