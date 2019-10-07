@@ -6,3 +6,4 @@
 # You can make a variable either True or False
 # You can use % with the variables to plug in the words in the sentence.
 # You can print variables together by % too.
+# You can make a dotted line by printing numbers to multiply with a dot inside the "".
