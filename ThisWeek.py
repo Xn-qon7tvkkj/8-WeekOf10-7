@@ -90,3 +90,20 @@ print(tabbyCat)
 print(persianCat)
 print(backslashCat)
 print(topCat)
+
+# Escape Seq            What it does?
+# \\                    Prints Backslash
+# \'                    Prints single-quote
+# \"                    Prints double quote
+# \a                    ASCII bell makes bell alert sounds
+# \b                    ASCII backspace removes previous character
+# \f                    ASCII formfeed
+# \n                    ASCII ASCII linefeed
+# \N{name}              Prints a character from Unicode database
+# \r
+# \t
+# \uxxxx
+# \Uxxxxxxxx
+# \v
+# \ooo
+# \xhh
