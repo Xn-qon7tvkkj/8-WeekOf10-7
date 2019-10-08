@@ -83,7 +83,7 @@ topCat = """
 I'll do a list:
 \t* Cat Food
 \t* Fishies
-\t* Catnip\n\t*Grass
+\t* Catnip\n\t* Grass
 """
 
 print(tabbyCat)
