@@ -48,3 +48,25 @@ print(formatter % (1, 2, 3, 4))
 print(formatter % ("one", "two", "three", "four"))
 print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
+
+# Why do I use %r instead of %s in the above example?
+# %r is returning the result that can be used to recreate the object it represents, becoming a format specifier in the Python syntax and logging and debugging the output.
+
+# Which should I use on regular basis?
+# I should use %s on regular basis because of their variables tying into the %. Thus, it can spell out words from the function.
+
+# Why does %r sometimes give me single quotes around things?
+# It is to produce a representation of a Python object that is also valid Python source code, so it would be easier to read by using double quotes by itself. With double quotes or other cases, there would be single quotes.
+
+names = "Fred Conner Julian April Nick Hyung"
+process = "tree\nfood\napple\nboiling\npeeling\nchopping\ntossing\neating"
+
+print("Here are the names:", names)
+print("Here are the process:", process)
+
+print("""
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
