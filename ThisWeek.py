@@ -1,9 +1,9 @@
 # More strings and text
 
-x = "There are %d types of people" % 10 # This is plugging the number in % of the sentence.
-binary = "binary" # This variable binary is equal to the binary.
-doNot = "don't" # This variable doNot is equal to don't.
-y = "Those who know %s and those who %s" % (binary, doNot) # This is plugging in the binary and doNot variable into %s.
+x = "There are %d types of professionals" % 10 # This is plugging the number in % of the sentence.
+teach = "how to teach" # This variable binary is equal to the binary.
+doNot = "who don't" # This variable doNot is equal to don't.
+y = "Those who know %s and those who %s" % (teach, doNot) # This is plugging in the binary and doNot variable into %s.
 
 
 print(x) # This will print the x variable with 10 for %d.
@@ -12,19 +12,19 @@ print(y) # This will print the y variable holding the plugged in variables in pa
 print("I said: %r." % x) # This print out the variable plugged in the %r of the sentence.
 print("I also said: '%s'." % y) # This print out variable plugged in the %s of the sentence.
 
-hilarious = True # Hilarious is equal to True statement.
-jokeEvaluation = "Isn't that joke so funny?! %r" # The variable equals to the string with the %r (plugged in specifier)
+fun = True # Hilarious is equal to True statement.
+funEvaluation = "How is that fun?! %r" # The variable equals to the string with the %r (plugged in specifier)
 
-print(jokeEvaluation % hilarious) # This print out the latter after the prior sentence is formed.
+print(funEvaluation % fun) # This print out the latter after the prior sentence is formed.
 
 w = "This is the left side of..." # W equals to the string.
 e = "a string with a right side." # E equals to string.
 print(w+e) # Print out the two variables within the parenthesis and add them to make a sentence.
 
 # More printing fun
-print("Mary had a little lamb.") # Print out Mary string
-print("Its fleece was white as %s." % 'snow') # Print out metaphoric string
-print("And everywhere that Mary went.") # Print out Mary's destination
+print("Once upon a time...") # Print out Mary string
+print("There was something brilliant as %s." % 'snow') # Print out metaphoric string
+print("They found nature upon their travel and make a snow fort.") # Print out Mary's destination
 print("." * 10) # Print out dots 10 times to make a line
 end1 = "C" # end1 equals to C
 end2 = "h" # end2 equals to h
@@ -44,8 +44,8 @@ print(end7 + end8 + end9 + end10 + end11 + end12) # Print out end7, end8, end9, 
 
 # But wait! There's more:
 formatter = "%r %r %r %r"
-print(formatter % (1, 2, 3, 4))
-print(formatter % ("one", "two", "three", "four"))
+print(formatter % (5, 10, 15, 20))
+print(formatter % ("five", "ten", "fifteen", "twenty"))
 print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
 
@@ -53,7 +53,7 @@ print(formatter % (formatter, formatter, formatter, formatter))
 # %r is returning the result that can be used to recreate the object it represents, becoming a format specifier in the Python syntax and logging and debugging the output.
 
 # Which should I use on regular basis?
-# I should use %s on regular basis because of their variables tying into the %. Thus, it can spell out words from the function.
+# I should use %s on regular basis because of their variables tying into the % or non-quotable format. Thus, it can spell out words from the function.
 
 # Why does %r sometimes give me single quotes around things?
 # It is to produce a representation of a Python object that is also valid Python source code, so it would be easier to read by using double quotes by itself. With double quotes or other cases, there would be single quotes.
@@ -70,3 +70,23 @@ With the three double-quotes.
 We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6.
 """)
+
+# examine closely the differences between the %r formatter and %s formatter
+print("These are the last names: %r" % names)
+print("These are the last names: %s" % names)
+
+# escape sequences redux
+tabbyCat = "\tI'm tabbed in."
+persianCat = "I'm split\non a line."
+backslashCat = "I'm \\ a \\ cat."
+topCat = """
+I'll do a list:
+\t* Cat Food
+\t* Fishies
+\t* Catnip\n\t*Grass
+"""
+
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(topCat)
