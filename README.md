@@ -11,3 +11,4 @@
 # \n is splitting a line
 # \\ is adding one slash between words
 # \n\t will make a new line regardless of the location.
+# You can answer a question if the variable is not equal to a number. The answer would be green.

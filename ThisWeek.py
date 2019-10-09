@@ -118,7 +118,7 @@ print("\U000001a9")
 # \v                    \x0b, formfeed
 print("\v")
 # \ooo                  Prints character based on octal value
-print("\054")
+print("\x091")
 # \xhh                  Prints character based on hex value
 print("\x23")
 
@@ -131,3 +131,8 @@ while True:
            print("%s\r" % i, end='')
 
 #   Can you use ''' instead of """ ?
+
+age = input("How old are you?")
+height = input("How tall are you?")
+
+print("So, you are %r old and %r tall." % (age, height))
