@@ -133,3 +133,23 @@ age = input("How old are you?")
 height = input("How tall are you?")
 
 print("So, you are %r old and %r tall." % (age, height))
+
+money = input("How much money would you want?")
+spend = input("How much would you spend?")
+
+print("So, you want %r dollars and %r to spend." % (money, spend))
+
+food = input("What would you make today?")
+time = input("What time would they be in?")
+
+print("So, you want to make %r and %r in this day." % (food, time))
+
+math = input("What did you learn in math today?")
+example = input("Could you type them out?")
+
+print("So, you learn %r and %r." % (math, example))
+
+game = input("What do you like to play during your free time? One answer only.")
+summary = input("What's the summary of them?")
+
+print("So, you like to play %r and to %r during your free time." % (game, summary))
