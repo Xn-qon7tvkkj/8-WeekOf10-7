@@ -108,17 +108,26 @@ print("jump\nbackward")
 # \N{name}              Prints characters from database
 print("\N{Polly}")
 # \r                    Moves all characters after the beginning of the line to next line.
+print("6543\rOO_PP")
 # \t                    Prints TAB
+print("\t*wonderful")
 # \uxxxx                Print 16-bit
+print("\u1022")
 # \Uxxxxxxxx            Prints 32-bit
+print("\U000001a9")
 # \v                    \x0b, formfeed
+print("\v")
 # \ooo                  Prints character based on octal value
+print("\054")
 # \xhh                  Prints character based on hex value
+print("\x23")
 
 # What does the following code do:
 #   While True:
 #       for i in ["/", "-", "|", "\\", "|"]:
-#           print("%s\r" % i, ends='')
+#           print("%s\r" % i, end='')
+while True:
+    for i in ["/", "-", "|", "\\", "|"]:
+           print("%s\r" % i, end='')
 
 #   Can you use ''' instead of """ ?
-
