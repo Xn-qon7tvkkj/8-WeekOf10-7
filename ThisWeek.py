@@ -192,7 +192,7 @@ if (choice1 == "a" or choice1 == "A"):
         print("The machine did not get affected by the attack at first but after a second, it exploded. You expected that since you added a flicker of light within the combined spell.")
         print("You breathed a sigh of relief.")
     choice2b = input("What do you do?")
-    if (choice1b == "b" or choice2b == "B"):
+    if (choice2b == "b" or choice2b == "B"):
         print("Your teammates nodded and ran forward. A glow of light surrounded them.")
         print("After slicing a few times, the Gu machine collapsed.")
         print("They were caught by its tail, but you parried the tail's attack with great force.")
