@@ -153,3 +153,31 @@ game = input("What do you like to play during your free time? One answer only.")
 summary = input("What's the summary of them?")
 
 print("So, you like to play %r and to %r during your free time." % (game, summary))
+
+
+
+
+
+# making a story
+
+print("What would be the story today?")
+print("In 32000 BC, the Quo and the Gu were in conflict in between the territories. As part of that conflict, you were assigned to a group that had unique powers such as TYPES.")
+gender = input("Are you a boy or a girl?")
+print("So, you are %r" % (gender))
+name = input("Your name is:")
+print("Your name is:" % (name))
+print("You boarded the ship of the Gu. Your Quo teammate brandished her sleeves, keeping her hair in a tight bun.")
+ask = input("What do you remember?")
+print("" % ask)
+print("Do not forget the protocols, %r. Do not touch any SHINY because they have the potential to be stronger than ourselves. Well? Let's go defeat that Gu machinery!" % (name))
+print("An alarm set off just when you arrived at the seating area. Someone had been expecting your group to break in?")
+print("It's a trap!")
+print("A great Gu machine is shaped like a human, brandishing its trademark company's name. Ren.")
+print("Your other teammate shook their head at their teammates and ran on ahead. You tried to stop them, but the strange Gu machine stopped you by putting a great trail of flame in front of you.")
+print("Do not interrupt Master with your friend's battle. It's the battle between the last Quo and Gu.")
+print("As the Gu machinery aimed its tail at you, you nodded off...")
+print("You woke up, finding yourself in a mess of the ruby and golden colored plated armor. You are the enemy of Quo.")
+print("Wake up, %r! It's time for your daily check in the Ruby ship!" % (name))
+print("Your AI, in a form of an ice cream, chirped.")
+print("You went to the backroom where the storage units are. You feel guilt bubbling in your stomach. This time, the world is still 32000 BC, but there's something different, %r" % (name))
+print("The actual civilization is asleep in your sword. The disruption between time and space is too great to contain, and %r sacrificed your old lineage to live." % (name))
